@@ -1,0 +1,743 @@
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Disabled
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 00:31:41] File 'settings.xml' not present, creating new node.
+[2019-04-11 00:31:44] Resource 'mapmanager' requests some acl rights. Use the command 'aclrequest list mapmanager'
+[2019-04-11 00:31:48] Resources: 192 loaded, 0 failed
+[2019-04-11 00:31:48] Starting resources...
+[2019-04-11 00:31:49] Admin access list successfully updated 
+[2019-04-11 00:31:49] INFO: Admin added 499 missing rights
+[2019-04-11 00:31:49] Server minclientversion is now 1.3.0-9.04311
+[2019-04-11 00:31:49] INFO: MAPMANAGER: Some important ACL permissions are missing. To ensure the correct functioning of Mapmanager, please write: aclrequest allow mapmanager all
+[2019-04-11 00:31:49] Gamemode 'play' started.
+[2019-04-11 00:31:49] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 00:31:49] WARNING: <owner_email_address> not set
+[2019-04-11 00:31:49] Server started and is ready to accept connections!
+[2019-04-11 00:31:49] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 00:31:49] Type 'help' for a list of commands.
+[2019-04-11 00:31:49] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 00:32:00] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 00:32:00] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 00:32:00] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 00:42:47] Compacting accounts database 'internal.db' ...
+[2019-04-11 00:42:48] Resource 'mapmanager' requests some acl rights. Use the command 'aclrequest list mapmanager'
+[2019-04-11 00:42:49] Resources: 192 loaded, 0 failed
+[2019-04-11 00:42:49] Compacting database 'registry.db' ...
+[2019-04-11 00:42:49] Starting resources...
+[2019-04-11 00:42:49] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 00:42:49] INFO: MAPMANAGER: Some important ACL permissions are missing. To ensure the correct functioning of Mapmanager, please write: aclrequest allow mapmanager all
+[2019-04-11 00:42:49] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 00:42:49] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 00:42:49] WARNING: <owner_email_address> not set
+[2019-04-11 00:42:49] Server started and is ready to accept connections!
+[2019-04-11 00:42:49] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 00:42:49] Type 'help' for a list of commands.
+[2019-04-11 00:44:41] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 00:44:41] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-11 00:45:12] start: Requested by Console
+[2019-04-11 00:45:12] Starting play
+[2019-04-11 00:45:12] Starting freeroam
+[2019-04-11 00:45:12] Gamemode 'play' started.
+[2019-04-11 00:45:12] start: Resource 'play' started
+[2019-04-11 00:47:59] stop: Requested by Console
+[2019-04-11 00:47:59] stop: Resource stopping
+[2019-04-11 00:47:59] Stopping play
+[2019-04-11 00:47:59] Stopping freeroam
+[2019-04-11 00:48:00] start: Requested by Console
+[2019-04-11 00:48:00] WARNING: amx/server/syscalls.lua(Line 1063) [Server] setVehicleTurnVelocity is deprecated and may not work in future versions. Please replace with setElementAngularVelocity.
+[2019-04-11 00:48:00] Some files in 'amx' use deprecated functions.
+[2019-04-11 00:48:00] Use the 'upgrade' command to perform a basic upgrade of resources.
+[2019-04-11 00:48:00] Starting amx
+[2019-04-11 00:48:00] ERROR: [gamemodes]\[amx]\amx\server\rcon.lua:47: attempt to call global 'amxVersionString' (a nil value)
+[2019-04-11 00:48:00] ERROR: [gamemodes]\[amx]\amx\server\amx.lua:23: The amx module (king.dll/so) isn't loaded. It is required for amx to function. Please add it to your server config and restart your server.
+[2019-04-11 00:48:00] Gamemode 'AMX' started.
+[2019-04-11 00:48:00] start: Resource 'amx' started
+[2019-04-11 00:48:43] QUIT: tensymbols left the game [Quit]
+[2019-04-11 00:48:43] ERROR: [gamemodes]\[amx]\amx\server\events.lua:339: attempt to index field '?' (a nil value)
+[2019-04-11 00:48:48] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 00:48:48] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-11 00:48:48] ERROR: [gamemodes]\[amx]\amx\server\events.lua:65: attempt to call global 'amxVersionString' (a nil value)
+[2019-04-11 00:49:12] stop: Requested by Console
+[2019-04-11 00:49:12] stop: Resource stopping
+[2019-04-11 00:49:12] Stopping amx
+[2019-04-11 00:49:12] ERROR: [gamemodes]\[amx]\amx\server\amx.lua:229: exports: Call to non-running server resource (amxscoreboard) [string "?"]
+[2019-04-11 00:49:12] ERROR: [gamemodes]\[amx]\amx\server\amx.lua:231: attempt to call global 'amxUnloadAllPlugins' (a nil value)
+[2019-04-11 00:49:24] start: Resource could not be found
+[2019-04-11 00:49:25] start: Requested by Console
+[2019-04-11 00:49:25] Starting stealth
+[2019-04-11 00:49:25] Starting missiontimer
+[2019-04-11 00:49:26] Starting killmessages
+[2019-04-11 00:49:26] Starting maplimits
+[2019-04-11 00:49:26] Gamemode 'Stealth' started.
+[2019-04-11 00:49:26] start: Resource 'stealth' started
+[2019-04-11 00:49:26] Starting sth-terminal
+[2019-04-11 00:49:26] Map 'terminal' started.
+[2019-04-11 00:49:26] startResource: Resource 'sth-terminal' started
+[2019-04-11 00:50:04] stop: Requested by Console
+[2019-04-11 00:50:04] stop: Resource stopping
+[2019-04-11 00:50:04] Stopping stealth
+[2019-04-11 00:50:04] Stopping missiontimer
+[2019-04-11 00:50:04] Stopping killmessages
+[2019-04-11 00:50:04] Stopping maplimits
+[2019-04-11 00:50:04] Stopping sth-terminal
+[2019-04-11 01:03:21] Server stopped!
+[2019-04-11 01:03:21] Stopping resources....................
+[2019-04-11 01:03:21] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 01:15:16] ERROR: Couldn't find script playeris.lua for resource players
+[2019-04-11 01:15:16] Loading of resource 'players' failed
+[2019-04-11 01:15:16] ERROR: Problem with resource: players; Couldn't find script playeris.lua for resource players
+[2019-04-11 01:15:16] Resources: 0 loaded, 1 failed
+[2019-04-11 01:15:16] Starting resources...
+[2019-04-11 01:15:16] ERROR: Couldn't find resource admin. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource defaultstats. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource helpmanager. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource joinquit. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource mapcycler. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource mapmanager. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource parachute. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource performancebrowser. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource reload. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource resourcebrowser. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource resourcemanager. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource scoreboard. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource spawnmanager. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource voice. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource votemanager. Check it exists.
+[2019-04-11 01:15:16] ERROR: Couldn't find resource webadmin. Check it exists.
+[2019-04-11 01:15:16] ERROR: Unable to start resource players; Couldn't find script playeris.lua for resource players
+[2019-04-11 01:15:16] ERROR: Couldn't find resource play. Check it exists.
+[2019-04-11 01:15:16] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 01:15:16] WARNING: <owner_email_address> not set
+[2019-04-11 01:15:16] Server started and is ready to accept connections!
+[2019-04-11 01:15:16] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 01:15:16] Type 'help' for a list of commands.
+[2019-04-11 01:15:16] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 01:15:34] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 01:15:34] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 01:15:34] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-11 01:15:48] Server stopped!
+[2019-04-11 01:15:48] Stopping resources...
+[2019-04-11 01:15:48] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 01:16:53] Resources: 1 loaded, 0 failed
+[2019-04-11 01:16:53] Starting resources....
+[2019-04-11 01:16:53] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 01:16:53] WARNING: <owner_email_address> not set
+[2019-04-11 01:16:53] Server started and is ready to accept connections!
+[2019-04-11 01:16:53] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 01:16:53] Type 'help' for a list of commands.
+[2019-04-11 01:16:53] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 01:17:00] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 01:17:00] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 01:17:00] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-11 01:39:57] start: Resource could not be found
+[2019-04-11 01:40:50] stop: Requested by Console
+[2019-04-11 01:40:50] stop: Resource stopping
+[2019-04-11 01:40:50] Stopping players
+[2019-04-11 01:40:53] start: Requested by Console
+[2019-04-11 01:40:53] Starting players
+[2019-04-11 01:40:53] start: Resource 'players' started
+[2019-04-11 01:40:56] start: Resource could not be found
+[2019-04-11 01:40:59] New resource 'vehicles' loaded
+[2019-04-11 01:40:59] Resources: 2 loaded, 0 failed
+[2019-04-11 01:41:01] start: Requested by Console
+[2019-04-11 01:41:01] Starting vehicles
+[2019-04-11 01:41:01] start: Resource 'vehicles' started
+[2019-04-11 01:49:25] QUIT: tensymbols left the game [Quit]
+[2019-04-11 01:49:31] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 01:49:31] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-11 01:49:45] stop: Requested by Console
+[2019-04-11 01:49:45] stop: Resource stopping
+[2019-04-11 01:49:45] Stopping vehicles
+[2019-04-11 01:49:48] start: Requested by Console
+[2019-04-11 01:49:48] Resource 'vehicles' changed, reloading and starting
+[2019-04-11 01:49:48] Starting vehicles
+[2019-04-11 01:49:48] SCRIPT ERROR: vehicles\vehicles.lua:5: 'end' expected (to close 'if' at line 2) near '<eof>'
+[2019-04-11 01:49:48] ERROR: Loading script failed: vehicles\vehicles.lua:5: 'end' expected (to close 'if' at line 2) near '<eof>'
+[2019-04-11 01:49:48] start: Resource 'vehicles' started
+[2019-04-11 01:49:51] stop: Requested by Console
+[2019-04-11 01:49:51] stop: Resource stopping
+[2019-04-11 01:49:51] Stopping vehicles
+[2019-04-11 01:49:54] stop: Requested by Console
+[2019-04-11 01:49:54] stop: Resource is not running
+[2019-04-11 01:49:56] start: Requested by Console
+[2019-04-11 01:49:56] Starting vehicles
+[2019-04-11 01:49:56] SCRIPT ERROR: vehicles\vehicles.lua:5: 'end' expected (to close 'if' at line 2) near '<eof>'
+[2019-04-11 01:49:56] ERROR: Loading script failed: vehicles\vehicles.lua:5: 'end' expected (to close 'if' at line 2) near '<eof>'
+[2019-04-11 01:49:56] start: Resource 'vehicles' started
+[2019-04-11 01:50:43] start: Requested by Console
+[2019-04-11 01:50:43] start: Resource is already running
+[2019-04-11 01:50:47] stop: Requested by Console
+[2019-04-11 01:50:47] stop: Resource stopping
+[2019-04-11 01:50:47] Stopping vehicles
+[2019-04-11 01:51:09] stop: Requested by Console
+[2019-04-11 01:51:09] stop: Resource is not running
+[2019-04-11 01:51:13] * Syntax: start <resource-name>
+[2019-04-11 01:51:16] start: Requested by Console
+[2019-04-11 01:51:16] Resource 'vehicles' changed, reloading and starting
+[2019-04-11 01:51:16] Starting vehicles
+[2019-04-11 01:51:16] start: Resource 'vehicles' started
+[2019-04-11 01:52:43] stop: Requested by Console
+[2019-04-11 01:52:43] stop: Resource stopping
+[2019-04-11 01:52:43] Stopping vehicles
+[2019-04-11 01:52:46] start: Requested by Console
+[2019-04-11 01:52:46] Resource 'vehicles' changed, reloading and starting
+[2019-04-11 01:52:46] Starting vehicles
+[2019-04-11 01:52:46] start: Resource 'vehicles' started
+[2019-04-11 01:56:10] stop: Requested by Console
+[2019-04-11 01:56:10] stop: Resource stopping
+[2019-04-11 01:56:10] Stopping players
+[2019-04-11 01:56:13] start: Requested by Console
+[2019-04-11 01:56:13] Resource 'players' changed, reloading and starting
+[2019-04-11 01:56:13] Starting players
+[2019-04-11 01:56:13] start: Resource 'players' started
+[2019-04-11 01:56:29] QUIT: tensymbols left the game [Quit]
+[2019-04-11 01:56:34] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 01:56:35] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-11 02:03:41] stop: Requested by Console
+[2019-04-11 02:03:41] stop: Resource stopping
+[2019-04-11 02:03:41] Stopping players
+[2019-04-11 02:03:43] start: Requested by Console
+[2019-04-11 02:03:43] Resource 'players' changed, reloading and starting
+[2019-04-11 02:03:43] Starting players
+[2019-04-11 02:03:43] start: Resource 'players' started
+[2019-04-11 02:44:22] QUIT: tensymbols left the game [Quit]
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 17:38:37] Resources: 2 loaded, 0 failed
+[2019-04-11 17:38:37] Starting resources....
+[2019-04-11 17:38:37] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 17:38:37] WARNING: <owner_email_address> not set
+[2019-04-11 17:38:37] Server started and is ready to accept connections!
+[2019-04-11 17:38:37] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 17:38:37] Type 'help' for a list of commands.
+[2019-04-11 17:38:37] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 17:38:46] start: Requested by Console
+[2019-04-11 17:38:46] start: Resource is already running
+[2019-04-11 17:38:50] start: Requested by Console
+[2019-04-11 17:38:50] Starting vehicles
+[2019-04-11 17:38:50] start: Resource 'vehicles' started
+[2019-04-11 17:39:22] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 17:39:22] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 17:39:25] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-11 17:41:21] WARNING: vehicles\vehicles.lua:4: Bad argument @ 'createVehicle' [Expected number at argument 1, got nil]
+[2019-04-11 17:41:29] WARNING: vehicles\vehicles.lua:4: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-11 17:45:07] stop: Requested by Console
+[2019-04-11 17:45:07] stop: Resource stopping
+[2019-04-11 17:45:07] Stopping players
+[2019-04-11 17:45:15] start: Requested by Console
+[2019-04-11 17:45:15] Resource 'players' changed, reloading and starting
+[2019-04-11 17:45:15] Starting players
+[2019-04-11 17:45:15] start: Resource 'players' started
+[2019-04-11 17:45:58] stop: Requested by Console
+[2019-04-11 17:45:58] stop: Resource stopping
+[2019-04-11 17:45:58] Stopping vehicles
+[2019-04-11 17:46:00] start: Requested by Console
+[2019-04-11 17:46:00] Resource 'vehicles' changed, reloading and starting
+[2019-04-11 17:46:00] Starting vehicles
+[2019-04-11 17:46:00] start: Resource 'vehicles' started
+[2019-04-11 17:46:41] WARNING: vehicles\vehicles.lua:4: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-11 17:46:45] WARNING: vehicles\vehicles.lua:4: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-11 18:10:24] Server stopped!
+[2019-04-11 18:10:24] Stopping resources.....
+[2019-04-11 18:10:24] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 18:10:30] Resources: 3 loaded, 0 failed
+[2019-04-11 18:10:30] Starting resources...
+[2019-04-11 18:10:30] SCRIPT ERROR: db\db.lua:1: '<name>' expected near '<eof>'
+[2019-04-11 18:10:30] ERROR: Loading script failed: db\db.lua:1: '<name>' expected near '<eof>'
+[2019-04-11 18:10:30] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 18:10:30] WARNING: <owner_email_address> not set
+[2019-04-11 18:10:30] Server started and is ready to accept connections!
+[2019-04-11 18:10:30] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 18:10:30] Type 'help' for a list of commands.
+[2019-04-11 18:10:31] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 18:13:50] Server stopped!
+[2019-04-11 18:13:50] Stopping resources......
+[2019-04-11 18:13:50] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 18:13:52] Resources: 3 loaded, 0 failed
+[2019-04-11 18:13:52] Starting resources.....
+[2019-04-11 18:13:52] SCRIPT ERROR: vehicles\vehicles.lua:5: '=' expected near '+'
+[2019-04-11 18:13:52] ERROR: Loading script failed: vehicles\vehicles.lua:5: '=' expected near '+'
+[2019-04-11 18:13:52] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 18:13:52] WARNING: <owner_email_address> not set
+[2019-04-11 18:13:52] Server started and is ready to accept connections!
+[2019-04-11 18:13:52] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 18:13:52] Type 'help' for a list of commands.
+[2019-04-11 18:13:52] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 18:14:40] Server stopped!
+[2019-04-11 18:14:40] Stopping resources......
+[2019-04-11 18:14:40] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 18:14:42] Resources: 3 loaded, 0 failed
+[2019-04-11 18:14:42] Starting resources.....
+[2019-04-11 18:14:42] SCRIPT ERROR: vehicles\vehicles.lua:10: 'end' expected (to close 'function' at line 1) near '<eof>'
+[2019-04-11 18:14:42] ERROR: Loading script failed: vehicles\vehicles.lua:10: 'end' expected (to close 'function' at line 1) near '<eof>'
+[2019-04-11 18:14:42] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 18:14:42] WARNING: <owner_email_address> not set
+[2019-04-11 18:14:42] Server started and is ready to accept connections!
+[2019-04-11 18:14:42] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 18:14:42] Type 'help' for a list of commands.
+[2019-04-11 18:14:42] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 18:15:41] Server stopped!
+[2019-04-11 18:15:41] Stopping resources......
+[2019-04-11 18:15:41] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-11 18:15:44] Resources: 3 loaded, 0 failed
+[2019-04-11 18:15:44] Starting resources......
+[2019-04-11 18:15:44] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-11 18:15:44] WARNING: <owner_email_address> not set
+[2019-04-11 18:15:44] Server started and is ready to accept connections!
+[2019-04-11 18:15:44] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-11 18:15:44] Type 'help' for a list of commands.
+[2019-04-11 18:15:44] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-11 18:15:55] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-11 18:15:55] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-11 18:15:56] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-11 18:16:13] WARNING: vehicles\vehicles.lua:7: dbExec failed; (1) no such table: vehicles
+[2019-04-11 20:05:43] QUIT: tensymbols left the game [Quit]
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-13 03:19:23] Compacting accounts database 'internal.db' ...
+[2019-04-13 03:19:24] Resources: 3 loaded, 0 failed
+[2019-04-13 03:19:24] Compacting database 'registry.db' ...
+[2019-04-13 03:19:24] Starting resources......
+[2019-04-13 03:19:24] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-13 03:19:24] WARNING: <owner_email_address> not set
+[2019-04-13 03:19:24] Server started and is ready to accept connections!
+[2019-04-13 03:19:24] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-13 03:19:24] Type 'help' for a list of commands.
+[2019-04-13 03:19:24] WARNING: vehicles\vehicles.lua:16: Bad argument @ 'createVehicle' [Expected number at argument 4, got table]
+[2019-04-13 03:19:24] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-13 03:35:53] restart: Requested by Console
+[2019-04-13 03:35:53] restart: Resource restarting...
+[2019-04-13 03:35:53] Stopping vehicles
+[2019-04-13 03:35:53] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 03:35:53] Starting vehicles
+[2019-04-13 03:35:53] vehicles restarted successfully
+[2019-04-13 03:36:13] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-13 03:36:13] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-13 03:36:16] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-13 03:36:53] restart: Requested by Console
+[2019-04-13 03:36:53] restart: Resource restarting...
+[2019-04-13 03:36:53] Stopping vehicles
+[2019-04-13 03:36:53] Starting vehicles
+[2019-04-13 03:36:53] vehicles restarted successfully
+[2019-04-13 03:36:58] stop: Requested by Console
+[2019-04-13 03:36:58] stop: Resource stopping
+[2019-04-13 03:36:58] Stopping vehicles
+[2019-04-13 03:37:04] start: Requested by Console
+[2019-04-13 03:37:04] Starting vehicles
+[2019-04-13 03:37:04] start: Resource 'vehicles' started
+[2019-04-13 03:38:39] restart: Requested by Console
+[2019-04-13 03:38:39] restart: Resource restarting...
+[2019-04-13 03:38:39] Stopping vehicles
+[2019-04-13 03:38:39] Starting vehicles
+[2019-04-13 03:38:39] vehicles restarted successfully
+[2019-04-13 04:09:43] restart: Requested by Console
+[2019-04-13 04:09:43] restart: Resource restarting...
+[2019-04-13 04:09:43] Stopping vehicles
+[2019-04-13 04:09:43] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 04:09:43] Starting vehicles
+[2019-04-13 04:09:43] vehicles restarted successfully
+[2019-04-13 04:09:58] stop: Requested by Console
+[2019-04-13 04:09:58] stop: Resource stopping
+[2019-04-13 04:09:58] Stopping vehicles
+[2019-04-13 04:09:58] WARNING: vehicles\vehicles.lua:40: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2019-04-13 04:10:04] WARNING: vehicles\vehicles.lua:40: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2019-04-13 04:10:35] stop: Requested by Console
+[2019-04-13 04:10:35] stop: Resource is not running
+[2019-04-13 04:10:37] restart: Requested by Console
+[2019-04-13 04:10:37] restart: Resource is not running
+[2019-04-13 04:10:42] start: Requested by Console
+[2019-04-13 04:10:42] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 04:10:42] Starting vehicles
+[2019-04-13 04:10:42] start: Resource 'vehicles' started
+[2019-04-13 04:10:44] stop: Requested by Console
+[2019-04-13 04:10:44] stop: Resource stopping
+[2019-04-13 04:10:44] Stopping vehicles
+[2019-04-13 04:10:47] start: Requested by Console
+[2019-04-13 04:10:47] Starting vehicles
+[2019-04-13 04:10:47] start: Resource 'vehicles' started
+[2019-04-13 04:10:59] stop: Requested by Console
+[2019-04-13 04:10:59] stop: Resource stopping
+[2019-04-13 04:10:59] Stopping vehicles
+[2019-04-13 04:11:02] start: Requested by Console
+[2019-04-13 04:11:02] Starting vehicles
+[2019-04-13 04:11:02] start: Resource 'vehicles' started
+[2019-04-13 04:11:21] stop: Requested by Console
+[2019-04-13 04:11:21] stop: Resource stopping
+[2019-04-13 04:11:21] Stopping vehicles
+[2019-04-13 04:11:23] start: Requested by Console
+[2019-04-13 04:11:23] Starting vehicles
+[2019-04-13 04:11:23] start: Resource 'vehicles' started
+[2019-04-13 04:20:28] restart: Requested by Console
+[2019-04-13 04:20:28] restart: Resource restarting...
+[2019-04-13 04:20:28] Stopping vehicles
+[2019-04-13 04:20:28] Starting vehicles
+[2019-04-13 04:20:28] vehicles restarted successfully
+[2019-04-13 04:54:20] restart: Requested by Console
+[2019-04-13 04:54:20] restart: Resource restarting...
+[2019-04-13 04:54:20] Stopping vehicles
+[2019-04-13 04:54:20] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 04:54:20] Starting vehicles
+[2019-04-13 04:54:20] vehicles restarted successfully
+[2019-04-13 04:54:20] WARNING: vehicles\vehicles.lua:40: dbExec failed; (1) SQL logic error
+[2019-04-13 04:54:42] restart: Requested by Console
+[2019-04-13 04:54:42] restart: Resource restarting...
+[2019-04-13 04:54:42] Stopping vehicles
+[2019-04-13 04:54:42] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 04:54:42] Starting vehicles
+[2019-04-13 04:54:42] vehicles restarted successfully
+[2019-04-13 04:55:04] restart: Requested by Console
+[2019-04-13 04:55:04] restart: Resource restarting...
+[2019-04-13 04:55:04] Stopping vehicles
+[2019-04-13 04:55:04] Starting vehicles
+[2019-04-13 04:55:04] vehicles restarted successfully
+[2019-04-13 05:09:59] restart: Requested by Console
+[2019-04-13 05:09:59] restart: Resource restarting...
+[2019-04-13 05:09:59] Stopping vehicles
+[2019-04-13 05:09:59] Starting vehicles
+[2019-04-13 05:09:59] vehicles restarted successfully
+[2019-04-13 05:10:21] restart: Requested by Console
+[2019-04-13 05:10:21] restart: Resource restarting...
+[2019-04-13 05:10:21] Stopping vehicles
+[2019-04-13 05:10:21] Starting vehicles
+[2019-04-13 05:10:21] vehicles restarted successfully
+[2019-04-13 05:11:09] QUIT: tensymbols left the game [Quit]
+[2019-04-13 05:12:32] CONNECT: tensymbols connected (IP: 109.206.131.91  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-13 05:12:34] stop: Requested by Console
+[2019-04-13 05:12:34] stop: Resource stopping
+[2019-04-13 05:12:34] Stopping vehicles
+[2019-04-13 05:12:35] JOIN: tensymbols joined the game (IP: 109.206.131.91)
+[2019-04-13 05:12:44] start: Requested by Console
+[2019-04-13 05:12:44] Starting vehicles
+[2019-04-13 05:12:44] start: Resource 'vehicles' started
+[2019-04-13 05:13:03] restart: Requested by Console
+[2019-04-13 05:13:03] restart: Resource restarting...
+[2019-04-13 05:13:03] Stopping vehicles
+[2019-04-13 05:13:03] Starting vehicles
+[2019-04-13 05:13:03] vehicles restarted successfully
+[2019-04-13 05:13:40] stop: Requested by Console
+[2019-04-13 05:13:40] stop: Resource stopping
+[2019-04-13 05:13:40] Stopping vehicles
+[2019-04-13 05:13:51] start: Requested by Console
+[2019-04-13 05:13:51] Starting vehicles
+[2019-04-13 05:13:51] start: Resource 'vehicles' started
+[2019-04-13 05:23:33] restart: Requested by Console
+[2019-04-13 05:23:33] restart: Resource restarting...
+[2019-04-13 05:23:33] Stopping vehicles
+[2019-04-13 05:23:33] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 05:23:33] Starting vehicles
+[2019-04-13 05:23:33] vehicles restarted successfully
+[2019-04-13 05:23:33] WARNING: vehicles\vehicles.lua:43: dbExec failed; (1) SQL logic error
+[2019-04-13 05:25:38] restart: Requested by Console
+[2019-04-13 05:25:38] restart: Resource restarting...
+[2019-04-13 05:25:38] Stopping vehicles
+[2019-04-13 05:25:38] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 05:25:38] Starting vehicles
+[2019-04-13 05:25:38] vehicles restarted successfully
+[2019-04-13 05:26:52] restart: Requested by Console
+[2019-04-13 05:26:52] restart: Resource restarting...
+[2019-04-13 05:26:52] Stopping vehicles
+[2019-04-13 05:26:52] Resource 'vehicles' changed, reloading and starting
+[2019-04-13 05:26:52] Starting vehicles
+[2019-04-13 05:26:52] vehicles restarted successfully
+[2019-04-13 05:27:08] WARNING: vehicles\vehicles.lua:10: dbExec failed; (1) SQL logic error
+[2019-04-13 05:27:08] ERROR: vehicles\vehicles.lua:18: attempt to index local 'vehicle' (a nil value)
+[2019-04-13 05:27:34] stop: Requested by Console
+[2019-04-13 05:27:34] stop: Resource stopping
+[2019-04-13 05:27:34] Stopping vehicles
+[2019-04-13 05:27:45] start: Requested by Console
+[2019-04-13 05:27:45] Starting vehicles
+[2019-04-13 05:27:45] start: Resource 'vehicles' started
+[2019-04-13 05:28:07] WARNING: vehicles\vehicles.lua:10: dbExec failed; (1) SQL logic error
+[2019-04-13 05:28:07] ERROR: vehicles\vehicles.lua:18: attempt to index local 'vehicle' (a nil value)
+[2019-04-13 05:28:25] restart: Requested by Console
+[2019-04-13 05:28:25] restart: Resource restarting...
+[2019-04-13 05:28:25] Stopping vehicles
+[2019-04-13 05:28:25] Starting vehicles
+[2019-04-13 05:28:25] vehicles restarted successfully
+[2019-04-13 05:32:21] restart: Requested by Console
+[2019-04-13 05:32:21] restart: Resource restarting...
+[2019-04-13 05:32:21] Stopping vehicles
+[2019-04-13 05:32:21] Starting vehicles
+[2019-04-13 05:32:21] vehicles restarted successfully
+[2019-04-13 05:32:21] WARNING: vehicles\vehicles.lua:26: dbPoll failed; SQL logic error
+[2019-04-13 05:32:21] ERROR: vehicles\vehicles.lua:27: bad argument #1 to 'pairs' (table expected, got boolean)
+[2019-04-13 05:33:29] restart: Requested by Console
+[2019-04-13 05:33:29] restart: Resource restarting...
+[2019-04-13 05:33:29] Stopping vehicles
+[2019-04-13 05:33:29] Starting vehicles
+[2019-04-13 05:33:29] vehicles restarted successfully
+[2019-04-13 05:33:31] restart: Requested by Console
+[2019-04-13 05:33:31] restart: Resource restarting...
+[2019-04-13 05:33:31] Stopping vehicles
+[2019-04-13 05:33:31] Starting vehicles
+[2019-04-13 05:33:31] vehicles restarted successfully
+[2019-04-13 05:33:45] restart: Requested by Console
+[2019-04-13 05:33:45] restart: Resource restarting...
+[2019-04-13 05:33:45] Stopping vehicles
+[2019-04-13 05:33:45] Starting vehicles
+[2019-04-13 05:33:45] vehicles restarted successfully
+[2019-04-13 05:33:53] restart: Requested by Console
+[2019-04-13 05:33:53] restart: Resource restarting...
+[2019-04-13 05:33:53] Stopping vehicles
+[2019-04-13 05:33:53] Starting vehicles
+[2019-04-13 05:33:53] vehicles restarted successfully
+[2019-04-13 05:34:00] stop: Requested by Console
+[2019-04-13 05:34:00] stop: Resource stopping
+[2019-04-13 05:34:00] Stopping vehicles
+[2019-04-13 05:34:05] start: Requested by Console
+[2019-04-13 05:34:05] Starting vehicles
+[2019-04-13 05:34:05] start: Resource 'vehicles' started
+[2019-04-13 05:34:12] stop: Requested by Console
+[2019-04-13 05:34:12] stop: Resource stopping
+[2019-04-13 05:34:12] Stopping vehicles
+[2019-04-13 05:34:14] start: Requested by Console
+[2019-04-13 05:34:14] Starting vehicles
+[2019-04-13 05:34:14] start: Resource 'vehicles' started
+[2019-04-13 05:35:02] stop: Requested by Console
+[2019-04-13 05:35:02] stop: Resource stopping
+[2019-04-13 05:35:02] Stopping vehicles
+[2019-04-13 05:35:15] start: Requested by Console
+[2019-04-13 05:35:15] Starting vehicles
+[2019-04-13 05:35:15] start: Resource 'vehicles' started
+[2019-04-13 05:36:39] QUIT: tensymbols left the game [Quit]
+[2019-04-13 05:36:41] Server stopped!
+[2019-04-13 05:36:41] Stopping resources.....
+[2019-04-13 05:36:41] ERROR: vehicles\vehicles.lua:40: exports: Call to non-running server resource (db) [string "?"]
+[2019-04-13 05:36:41] WARNING: vehicles\vehicles.lua:47: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2019-04-13 05:36:41] WARNING: vehicles\vehicles.lua:47: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x2]
+[2019-04-13 05:36:41] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-13 18:23:50] Resources: 3 loaded, 0 failed
+[2019-04-13 18:23:50] Starting resources......
+[2019-04-13 18:23:50] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-13 18:23:50] WARNING: <owner_email_address> not set
+[2019-04-13 18:23:50] Server started and is ready to accept connections!
+[2019-04-13 18:23:50] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-13 18:23:50] Type 'help' for a list of commands.
+[2019-04-13 18:23:50] WARNING: vehicles\vehicles.lua:29: Bad argument @ 'setElementVelocity' [Expected number at argument 3, got boolean]
+[2019-04-13 18:23:51] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-13 18:24:36] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-13 18:24:36] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-13 18:24:39] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-13 18:25:08] restart: Resource could not be found
+[2019-04-13 18:25:10] restart: Requested by Console
+[2019-04-13 18:25:10] restart: Resource restarting...
+[2019-04-13 18:25:10] Stopping vehicles
+[2019-04-13 18:25:10] Starting vehicles
+[2019-04-13 18:25:10] vehicles restarted successfully
+[2019-04-13 18:25:15] Server stopped!
+[2019-04-13 18:25:15] Stopping resources.....
+[2019-04-13 18:25:15] ERROR: vehicles\vehicles.lua:40: exports: Call to non-running server resource (db) [string "?"]
+[2019-04-13 18:25:15] WARNING: vehicles\vehicles.lua:47: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]
+[2019-04-13 18:25:15] WARNING: vehicles\vehicles.lua:47: Bad argument @ 'dbExec' [Expected db-connection at argument 1, got nil]  [DUP x3]
+[2019-04-13 18:25:15] Closing SQLite3 database
+==================================================================
+= Multi Theft Auto: San Andreas v1.5.6
+==================================================================
+= Server name      : Default MTA Server
+= Server IP address: auto
+= Server port      : 22003
+= 
+= Log file         : ../MTA/server/mods/deathmatch/logs/server.log
+= Maximum players  : 32
+= HTTP port        : 22005
+= Voice Chat       : Quality [10];  Sample Rate: [32000Hz]
+= Bandwidth saving : Medium
+==================================================================
+[2019-04-13 18:25:19] Resources: 3 loaded, 0 failed
+[2019-04-13 18:25:19] Starting resources......
+[2019-04-13 18:25:19] Authorized serial account protection is enabled for the ACL group(s): `Admin`  See http://mtasa.com/authserial
+[2019-04-13 18:25:19] WARNING: <owner_email_address> not set
+[2019-04-13 18:25:19] Server started and is ready to accept connections!
+[2019-04-13 18:25:19] To stop the server, type 'shutdown' or press Ctrl-C
+[2019-04-13 18:25:19] Type 'help' for a list of commands.
+[2019-04-13 18:25:19] Querying MTA master server... success! (Auto detected IP:109.206.131.91)
+[2019-04-13 18:25:28] Server minclientversion is now 1.5.6-9.16557.0
+[2019-04-13 18:25:28] CONNECT: tensymbols connected (IP: 192.168.1.169  Serial: DA302669921CC788FA8CB0DC6225B192  Version: 1.5.6-9.16598.0)
+[2019-04-13 18:25:29] JOIN: tensymbols joined the game (IP: 192.168.1.169)
+[2019-04-13 18:27:34] WARNING: vehicles\vehicles.lua:12: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 18:27:34] WARNING: vehicles\vehicles.lua:18: Bad argument @ 'setElementData' [Expected element at argument 1, got boolean]
+[2019-04-13 18:30:16] stop: Requested by Console
+[2019-04-13 18:30:16] stop: Resource stopping
+[2019-04-13 18:30:16] Stopping vehicles
+[2019-04-13 18:30:16] WARNING: vehicles\vehicles.lua:47: dbExec failed; (5) database is locked
+[2019-04-13 18:30:22] WARNING: vehicles\vehicles.lua:47: dbExec failed; (5) database is locked  [DUP x5]
+[2019-04-13 18:31:04] start: Requested by Console
+[2019-04-13 18:31:04] Starting vehicles
+[2019-04-13 18:31:04] start: Resource 'vehicles' started
+[2019-04-13 18:31:04] WARNING: vehicles\vehicles.lua:28: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 18:31:04] WARNING: vehicles\vehicles.lua:29: Bad argument @ 'setElementVelocity' [Expected element at argument 1, got boolean]
+[2019-04-13 18:31:04] WARNING: vehicles\vehicles.lua:30: Bad argument @ 'setElementData' [Expected element at argument 1, got boolean]
+[2019-04-13 18:31:37] restart: Requested by Console
+[2019-04-13 18:31:37] restart: Resource restarting...
+[2019-04-13 18:31:37] Stopping vehicles
+[2019-04-13 18:31:37] Starting vehicles
+[2019-04-13 18:31:37] vehicles restarted successfully
+[2019-04-13 18:31:37] WARNING: vehicles\vehicles.lua:28: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 18:31:37] WARNING: vehicles\vehicles.lua:29: Bad argument @ 'setElementVelocity' [Expected element at argument 1, got boolean]
+[2019-04-13 18:31:37] WARNING: vehicles\vehicles.lua:30: Bad argument @ 'setElementData' [Expected element at argument 1, got boolean]
+[2019-04-13 18:33:25] restart: Requested by Console
+[2019-04-13 18:33:25] restart: Resource restarting...
+[2019-04-13 18:33:25] Stopping vehicles
+[2019-04-13 18:33:25] Starting vehicles
+[2019-04-13 18:33:25] vehicles restarted successfully
+[2019-04-13 18:33:33] restart: Requested by Console
+[2019-04-13 18:33:33] restart: Resource restarting...
+[2019-04-13 18:33:33] Stopping vehicles
+[2019-04-13 18:33:33] Starting vehicles
+[2019-04-13 18:33:33] vehicles restarted successfully
+[2019-04-13 18:33:47] restart: Requested by Console
+[2019-04-13 18:33:47] restart: Resource restarting...
+[2019-04-13 18:33:47] Stopping vehicles
+[2019-04-13 18:33:47] Starting vehicles
+[2019-04-13 18:33:47] vehicles restarted successfully
+[2019-04-13 19:04:57] restart: Requested by Console
+[2019-04-13 19:04:57] restart: Resource restarting...
+[2019-04-13 19:04:57] Stopping players
+[2019-04-13 19:04:57] Resource 'players' changed, reloading and starting
+[2019-04-13 19:04:57] Starting players
+[2019-04-13 19:04:57] players restarted successfully
+[2019-04-13 19:05:05] WARNING: players\players.lua:13: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 19:05:11] WARNING: players\players.lua:13: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 19:05:12] WARNING: players\players.lua:13: Expected number, got non-convertible string. This warning may be an error in future versions.
+[2019-04-13 19:05:45] restart: Requested by Console
+[2019-04-13 19:05:45] restart: Resource restarting...
+[2019-04-13 19:05:45] Stopping players
+[2019-04-13 19:05:45] Resource 'players' changed, reloading and starting
+[2019-04-13 19:05:45] Starting players
+[2019-04-13 19:05:45] players restarted successfully
